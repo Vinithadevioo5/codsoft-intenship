@@ -1,0 +1,75 @@
+!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+	<h1>My Portfolio</h1>
+</header>
+
+<nav>
+	<ul>
+		<li><a href="#about">About</a></li>
+		<li><a href="#projects">Projects</a></li>
+		<li><a href="#contact">Contact</a></li>
+	</ul>
+</nav>
+
+<main>
+
+<section id="about">
+	<h2>About Me</h2>
+	<p>Hi, I'm John Doe. I'm a web developer based in New York City. I specialize in building responsive websites using HTML, CSS, and JavaScript.</p>
+</section>
+
+<section id="projects">
+	<h2>My Projects</h2>
+
+	<div class="project">
+		<img src="project1.jpg" alt="Project 1">
+		<h3>Project 1</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+	</div>
+
+	<div class="project">
+		<img src="project2.jpg" alt="Project 2">
+		<h3>Project 2</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+	</div>
+
+</section>
+
+<section id="contact">
+	<h2>Contact Me</h2>
+	
+	<form action="/submit-form.php" method="post">
+		
+		 <label for="name">Name:</label><br>
+		 <input type="text" id="name" name="name"><br>
+
+		 <label for="email">Email:</label><br>
+		 <input type="email" id="email" name="email"><br>
+
+		 <label for="message">Message:</label><br>
+		 <textarea id="message" name="message"></textarea><br>
+
+		 <input type="submit" value="Submit">
+
+   </form> 
+
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2023 John Doe. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
